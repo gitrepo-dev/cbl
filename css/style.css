@@ -14,7 +14,13 @@ body{
   font-family: semibold;
   src: url('../font/Montserrat-SemiBoldItalic.ttf');
 }
-
+.text-base{color: #ee3f47 !important;}
+.bg-base{background-color: #ee3f47 !important;}
+.txt-secondary{color: rgb(94, 94, 94) !important;}
+.text-gray{color: rgb(145, 145, 145) !important;}
+.btn-base{background: #ee3f47 !important; border-color: #ee3f47 !important; color: #ffffff !important;}
+.bg-base-dark{background: rgb(22, 22, 22) !important}
+.mx-200{max-width:200px}
 .display-4,
 .display-6,
 h4,
@@ -32,6 +38,9 @@ nav li a,
 /* helder classes end */
 
 /* header start */
+.nav-logo{
+  max-width: 80px;
+}
 [data-sticky='header']{
   padding-top: 20px;
   padding-bottom: 20px;
@@ -53,10 +62,11 @@ nav li a,
   min-height: 650px;
   position: relative;
 }
-.nav-header li{
+nav li{
   text-transform: uppercase;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 14px;
 }
 .banner-caption .display-4{letter-spacing:10px}
 /* header end */
