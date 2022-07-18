@@ -46,3 +46,18 @@ window.addEventListener('scroll', () => {
 gotoTop.addEventListener('click', () => {
   document.documentElement.scrollTop = 0;
 });
+
+
+// for contact form
+const collapsHidden = document.querySelector('.btn-collaps')
+if(collapsHidden){
+  collapsHidden.addEventListener('click', () =>{
+    collapsHidden.classList.add('d-none')
+  })
+}
+const collapsShow = document.querySelector('.btn-collaps-show')
+if(collapsShow){
+  collapsShow.addEventListener('click', () =>{
+    collapsHidden.classList.remove('d-none')
+  })
+}
